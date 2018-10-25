@@ -1,4 +1,4 @@
-FROM M elasticsearch:Latest
+FROM elasticsearch:Latest
 
 RUN bin/elasticsearch-plugin install ingest-attachment
 
