@@ -1,4 +1,4 @@
-FROM elasticsearch:5.0
+FROM elasticsearch:6.4.2
 
-RUN bin/elasticsearch-plugin install ingest-attachment
+RUN bin/elasticsearch-plugin install --batch ingest-attachment
 
